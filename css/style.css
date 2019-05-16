@@ -1,3 +1,53 @@
-h2{
-  color:blue;
+body{
+  background-color:#f4f4f4;
+  color:#555555;
+
+  font-family: Verdana, Geneva, sans-serif;
+  font-size:16px;
+  font-weight:normal;
+  /* Same as above */
+  font: normal 16px Verdana, Geneva, sans-serif;
+
+  line-height:1.6em;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+}
+
+.box-1{
+  background-color:#333;
+  color:#fff;
+
+  font: normal 14px Arial, Helvetica, sans-serif;
+
+  border:5px red solid;
+
+  padding:20px;
+  margin:20px;
+}
+
+.container-2{
+  width:90%;
+  margin:auto;
+
+  background-color:#670f3f;
+  color:#34ff45;
+  border:2px #003405 solid;
+  font: normal 16px Tahoma, sans-serif;
+
+  padding:10px;
+}
+
+.sub-form{
+  width:80%;
+  margin:auto;
+
+  background-color:#4f4f4f;
+  color:#777;
+  font: normal 14px Helvetica;
+  padding:20px;
+
 }
