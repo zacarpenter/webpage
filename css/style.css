@@ -12,9 +12,33 @@ body{
   margin:0;
 }
 
+a{
+  text-decoration:none;
+  color:#000;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:green;
+}
+
+.button{
+  background-color:#333;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+}
+
 .container{
   width:80%;
   margin:auto;
+}
+
+.clr{
+  clear:both;
 }
 
 .box-1{
@@ -41,13 +65,35 @@ body{
   padding:10px;
 }
 
-.sub-form{
-  width:80%;
-  margin:auto;
-
-  background-color:#4f4f4f;
-  color:#777;
-  font: normal 14px Helvetica;
+.my-form{
   padding:20px;
+}
 
+.my-form .form-group{
+  padding-bottom:15px;
+}
+
+.my-form label{
+  display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  padding:8px;
+  width:100%;
+}
+
+/* .button{
+  can work with class="button" in the index.html file
+} */
+.my-form input[type="submit"]{
+  background-color:#333;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+}
+
+.block{
+  float:left;
+  width:33.3%;
+  box-sizing:border-box;
 }

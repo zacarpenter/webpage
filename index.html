@@ -70,76 +70,67 @@
     <br>
 
     <!-- forms -->
-    <div class="sub-form">
-      <form action="process.php" method="POST">
-        <div>
-          <label>First Name</label>
-          <input type="text" name="firstName" placeholder="Enter first name">
-        </div>
-        <br>
-        <div>
-          <label>Last Name</label>
-          <input type="text" name="lastName" placeholder="Enter last name">
-        </div>
-        <br>
-        <div>
-          <label>Email</label>
-          <input type="email" name="email" placeholder="Enter email address">
-        </div>
-        <br>
-        <div>
-          <label>Message</label>
-          <textarea name="" placeholder="Enter message here"></textarea>
-        </div>
-        <br>
-        <div>
-          <label>Gender</label>
-          <select name="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-        <br>
-        <div>
-          <label>Age</label>
-          <input type="number" name="age" placeholder="Enter age (ex. 30)">
-        </div>
-        <br>
-        <div>
-          <label>Birthday</label>
-          <input type="date" name="birthday">
-        </div>
-        <br>
-        <div>
-          <input type="submit" name="submit" value="Submit">
-        </div>
-      </form>
-    </div>
-    <!-- button; needs js to work -->
-    <button>Click Me</button>
 
-    <br>
+    <form action="process.php" method="POST" class="my-form">
+      <div class="form-group">
+        <label>First Name</label>
+        <input type="text" name="firstName" placeholder="Enter first name">
+      </div>
+      <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" name="lastName" placeholder="Enter last name">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter email address">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea name="" placeholder="Enter message here"></textarea>
+      </div>
+      <div class="form-group">
+        <label>Gender</label>
+        <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Age</label>
+        <input type="number" name="age" placeholder="Enter age (ex. 30)">
+      </div>
+      <div class="form-group">
+        <label>Birthday</label>
+        <input type="date" name="birthday">
+      </div>
+      <div class="form-group">
+        <input type="submit" name="submit" value="Submit">
+      </div>
+      <!-- button; needs js to work -->
+      <button class="button">Click Me</button>
+    </form>
 
     <!-- images -->
     <a href="naruto.png">
-    <img src="naruto.png" alt="Naruto" width="150">
+      <img src="naruto.png" alt="Naruto">
+    </a>
 
-    <!-- quotations -->
-    <blockquote cite="http://google.com">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </blockquote>
+    <div class="block">
+      <!-- quotations -->
+      <blockquote cite="http://google.com">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </blockquote>
 
-    <p>The <abbr title="National Basketball Association">NBA</abbr> is
-      awesome</p>
+      <p>The <abbr title="National Basketball Association">NBA</abbr> is
+        awesome</p>
+      <div class="clr"></div>
+    </div>
 
-    <p><cite>HTML Crash Course</cite> on Youtube</p>
+    <p><cite cite="http://youtube.com">HTML Crash Course</cite> on Youtube</p>
 
   </body>
 </html>
